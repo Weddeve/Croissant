@@ -24,6 +24,10 @@ p {
   color: var(--ink-color);
 }
 
+ul{
+  text-align: center;
+}
+
 a {
   color: var(--main-branding-color);
 }
