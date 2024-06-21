@@ -1,6 +1,8 @@
 :root {
   --background-color: #88a0f6;
   --main-branding-color: #cecfd0;
+  --link-color:#C1F9FA;
+  --ink-color:#212529;
 }
 
 body {
@@ -8,5 +10,16 @@ body {
 }
 
 h1, h2 {
+  color: var(--main-branding-color);
+  text-align: center;
+}
+
+
+p{
+  text-align: justify;
+  color: var(--ink-color);
+}
+
+a{
   color: var(--main-branding-color);
 }
